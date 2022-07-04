@@ -1,0 +1,15 @@
+#logo {
+   margin-block: 2.4rem;
+}
+
+#logo .logo__img {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   margin-top: 3rem;
+}
+
+#logo .logo__img img {
+   width: 50%;
+}

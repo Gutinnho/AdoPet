@@ -1,0 +1,16 @@
+:root {
+   font-size: 62.5%;
+   /* Variables */
+   --header-height: 2.3rem;
+   --footer-height: 10.5rem;
+   /* Colors */
+   --azul: #3772FF;
+   --verde: #36D6AD;
+   --coral: #FC7071;
+   --creme: #FCF0E3;
+   --cinza: #737380;
+   --cinza-claro: #BCBCBC;
+   --cinza-claro-fundos: #d9d9d9;
+   --bg-color: #F6F6F6;
+   --footer-text-color: #ffffff;
+}

@@ -1,0 +1,33 @@
+body {
+   font-family: 'Poppins', sans-serif;
+
+   background-color: var(--azul);
+}
+
+.wrapper {
+   width: min(36rem, 100%);
+   margin-inline: auto;
+
+}
+
+.button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   background: var(--coral);
+   border-radius: 6px;
+
+   width: 18rem;
+   height: 4rem;
+
+   color: #ffffff;
+}
+
+.hidden {
+   display: none;
+}
+
+* img {
+   width: min(90%, 100%);
+}

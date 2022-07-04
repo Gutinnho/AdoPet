@@ -1,0 +1,37 @@
+header .header__forma {
+   position: absolute;
+   top: 0;
+   z-index: -1;
+}
+
+header .header__container {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-areas: 'A B';
+
+   padding-block: 5rem;
+}
+
+header .header__links {
+   grid-area: A;
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+header .header__links img {
+   height: var(--header-height);
+}
+
+header .header__perfil {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+header .header__perfil img {
+   margin-right: 3.7rem;
+   height: 4rem;
+   width: 4rem;
+}
