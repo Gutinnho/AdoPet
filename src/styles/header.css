@@ -9,14 +9,14 @@ header .header__container {
    grid-template-columns: 50% 50%;
    grid-template-areas: 'A B';
 
-   padding-block: 5rem;
+   padding-block: 4rem;
 }
 
 header .header__links {
    grid-area: A;
 
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
    align-items: center;
 }
 
