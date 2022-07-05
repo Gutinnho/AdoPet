@@ -16,12 +16,12 @@
    <link rel="stylesheet" href="../styles/general/reset.css">
    <link rel="stylesheet" href="../styles/general/variables.css">
    <link rel="stylesheet" href="../styles/general/generalStyles.css">
-   <link rel="stylesheet" href="../styles/general/header.css">
-   <link rel="stylesheet" href="../styles/general/headerPatas.css">
-   <link rel="stylesheet" href="../styles/registrationStyles/logo.css">
    <link rel="stylesheet" href="../styles/general/forma.css">
-   <link rel="stylesheet" href="../styles/registrationStyles/section/registration.css">
+   <link rel="stylesheet" href="../styles/general/header.css">
    <link rel="stylesheet" href="../styles/general/footer.css">
+   <link rel="stylesheet" href="../styles/loginStyles/logo.css">
+   <link rel="stylesheet" href="../styles/loginStyles/section/login.css">
+   <link rel="stylesheet" href="../styles/general/headerPatas.css">
 
 </head>
 
@@ -98,61 +98,45 @@
 
       </div>
 
-      <section id="registration">
+      <section id="login">
 
          <div class="wrapper">
 
-            <div class="registration__text">
+            <div class="login__text">
 
-               <p class="registration__paragraph">Ainda não tem cadastro?<br>
-                  Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+               <p class="login__paragraph">
+                  Já tem conta? Faça seu login:
                </p>
 
             </div>
 
-            <form action="" autocomplete="on" class="registration__form">
-               <div class="registration__form-container">
+            <form action="" autocomplete="on" class="login__form">
 
-                  <label for="input__email" class="registration__form-label">
+               <div class="login__form-container">
+
+                  <label for="input__email" class="login__form-label">
                      Email
                   </label>
-                  <input type="email" name="" id="input__email" required placeholder="Escolha seu melhor email"
-                     class="registration__form-input">
+                  <input type="email" name="" id="input__email" required placeholder="Insira seu email"
+                     class="login__form-input">
 
                </div>
 
-               <div class="registration__form-container">
+               <div class="login__form-container">
 
-                  <label for="input__nome" class="registration__form-label">
-                     Nome
-                  </label>
-                  <input type="text" name="nome" id="input__nome" required placeholder="Digite seu nome completo"
-                     class="registration__form-input">
-
-               </div>
-
-               <div class="registration__form-container">
-
-                  <label for="input__senha" class="registration__form-label">
+                  <label for="input__senha" class="login__form-label">
                      Senha
                   </label>
-                  <input type="password" name="" id="input__senha" maxlength="16" required placeholder="Crie uma senha"
-                     class="registration__form-input">
+
+                  <input type="password" name="" id="input__senha" maxlength="16" required
+                     placeholder="Insira sua senha" class="login__form-input">
+
+                  <a href="#" class="login__form-link">Esqueci minha senha</a>
 
                </div>
 
-               <div class="registration__form-container">
-
-                  <label for="input__confirme-senha" class="registration__form-label">
-                     Confirme sua Senha
-                  </label>
-                  <input type="password" name="" id="input__confirme-senha" maxlength="16" required
-                     placeholder="Repita a senha criada acima" class="registration__form-input">
-
-               </div>
-
-               <button type="submit" class="button registration__form-button">
-                  Cadastrar
+               <button type="submit" class="button login__form-button">
+                  Entrar
                </button>
 
             </form>
