@@ -2,12 +2,10 @@
 <html lang="en">
 
 <head>
-
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   <title>AdoPet</title>
+   <title>AdoPet - Registration</title>
 
    <!-- Font Import -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,15 +13,15 @@
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
    <!-- Style Sheet -->
-   <link rel="stylesheet" href="./src/styles/general/reset.css">
-   <link rel="stylesheet" href="./src/styles/general/variables.css">
-   <link rel="stylesheet" href="./src/styles/general/generalStyles.css">
-   <link rel="stylesheet" href="./src/styles/indexStyles/generalIndex.css">
-   <link rel="stylesheet" href="./src/styles/general/header.css">
-   <link rel="stylesheet" href="./src/styles/indexStyles/logo.css">
-   <link rel="stylesheet" href="./src/styles/general/forma.css">
-   <link rel="stylesheet" href="./src/styles/indexStyles/sections/home.css">
-   <link rel="stylesheet" href="./src/styles/general/footer.css">
+   <link rel="stylesheet" href="../styles/general/reset.css">
+   <link rel="stylesheet" href="../styles/general/variables.css">
+   <link rel="stylesheet" href="../styles/general/generalStyles.css">
+   <link rel="stylesheet" href="../styles/general/header.css">
+   <link rel="stylesheet" href="../styles/registrationStyles/headerRegistration.css">
+   <link rel="stylesheet" href="../styles/registrationStyles/logo.css">
+   <link rel="stylesheet" href="../styles/general/forma.css">
+   <link rel="stylesheet" href="../styles/registrationStyles/section/registration.css">
+   <link rel="stylesheet" href="../styles/general/footer.css">
 
 </head>
 
@@ -33,7 +31,11 @@
       <div class="wrapper">
 
          <div class="header__forma">
-            <img class="header__forma-img" src="./src/assets/FormaNTop.svg" alt="">
+            <img class="header__forma-img" src="../assets/FormaNTop.svg" alt="">
+         </div>
+
+         <div class="header__patas">
+            <img src="../assets/Patas.png" alt="">
          </div>
 
          <div class="header__container">
@@ -41,16 +43,16 @@
             <div class="header__links">
 
                <a href="#">
-                  <img src="./src/assets/Casa.svg" alt="">
+                  <img src="../assets/Casa.svg" alt="">
                </a>
 
                <a href="#">
-                  <img src="./src/assets/Mensagens.svg" alt="">
+                  <img src="../assets/Mensagens.svg" alt="">
                </a>
             </div>
 
             <div class="header__perfil">
-               <img src="./src/assets/Usuário.png" alt="" class="hidden">
+               <img src="../assets/Usuário.png" alt="" class="hidden">
             </div>
 
          </div>
@@ -59,6 +61,10 @@
    </header>
 
    <main>
+
+      <div class="formaBNormal">
+         <img src="../assets/FormaBNormal.svg" alt="" class="formaBNormal-img">
+      </div>
 
       <div id="logo">
 
@@ -92,38 +98,49 @@
 
       </div>
 
-      <div class="formaBReverse">
-
-         <img class="formaBReverse-img" src="./src/assets/FormaBReverse.svg" alt="">
-
-      </div>
-
-      <section id="home">
+      <section id="registration">
 
          <div class="wrapper">
 
-            <div class="home__description">
+            <div class="registration__text">
 
-               <h2 class="home__title">
-                  Boas-vindas!
-               </h2>
-
-               <p class="home__introduction">
-                  Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!
+               <p class="registration__paragraph">Ainda não tem cadastro?<br>
+                  Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
                </p>
 
             </div>
 
-            <div class="home__buttons">
+            <form action="" autocomplete="on" class="registration__form">
 
-               <a href="#" class="home__buttons-button button">Já tenho conta</a>
-               <a href="./src/pages/registration.html" class="home__buttons-button button">Quero me cadastrar</a>
+               <label for="input__email" class="registration__form-label">
+                  Email
+               </label>
+               <input type="email" name="" id="input__email" required placeholder="Escolha seu melhor email"
+                  class="registration__form-input">
 
-            </div>
+               <label for="input__nome" class="registration__form-label">
+                  Nome
+               </label>
+               <input type="text" name="nome" id="input__nome" required placeholder="Digite seu nome completo"
+                  class="registration__form-input">
 
-            <div class="home__image">
-               <img src="./src/assets/CãoEGato.png" alt="">
-            </div>
+               <label for="input__senha" class="registration__form-label">
+                  Senha
+               </label>
+               <input type="password" name="" id="input__senha" maxlength="16" required placeholder="Crie uma senha"
+                  class="registration__form-input">
+
+               <label for="input__confirme-senha" class="registration__form-label">
+                  Confirme sua Senha
+               </label>
+               <input type="password" name="" id="input__confirme-senha" maxlength="16" required
+                  placeholder="Repita a senha criada acima" class="registration__form-input">
+
+               <button type="submit" class="button registration__form-button">
+                  Cadastrar
+               </button>
+
+            </form>
 
          </div>
 

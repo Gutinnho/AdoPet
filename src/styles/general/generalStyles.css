@@ -1,7 +1,5 @@
 body {
    font-family: 'Poppins', sans-serif;
-
-   background-color: var(--azul);
 }
 
 .wrapper {
@@ -17,11 +15,13 @@ body {
 
    background: var(--coral);
    border-radius: 6px;
-
-   width: 18rem;
-   height: 4rem;
+   border: none;
 
    color: #ffffff;
+}
+
+.button:hover {
+   background-color: var(--button-hover);
 }
 
 .hidden {

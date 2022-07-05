@@ -1,0 +1,13 @@
+.formaBNormal {
+   position: absolute;
+   left: 0;
+   top: 67vh;
+   z-index: -1;
+}
+
+.formaBReverse {
+   position: absolute;
+   z-index: -1;
+   right: -2vw;
+   bottom: 4vh;
+}

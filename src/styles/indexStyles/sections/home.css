@@ -35,13 +35,6 @@
    text-align: center;
 }
 
-.home__forma {
-   position: absolute;
-   z-index: -1;
-   right: -2vw;
-   bottom: 5vh;
-}
-
 .home__buttons {
    display: flex;
    flex-direction: column;
@@ -50,6 +43,11 @@
 
    gap: 1.6rem;
    margin-bottom: 4rem;
+}
+
+.home__buttons-button {
+   width: 18rem;
+   height: 4rem;
 }
 
 .home__buttons a {
