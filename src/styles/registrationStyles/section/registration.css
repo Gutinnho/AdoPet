@@ -61,7 +61,11 @@
    font-size: 1.2rem;
    line-height: 1.6rem;
 
-   color: var(--cinza);
+   color: var(--cinza-claro);
+}
+
+.registration__form-input::placeholder {
+   color: var(--cinza-claro);
 }
 
 .registration__form-button {

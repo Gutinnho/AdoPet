@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Contact - Adopet</title>
+   <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+
+   <!-- Font Import -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+   <!-- Style Sheet -->
+   <link rel="stylesheet" href="../styles/general/reset.css">
+   <link rel="stylesheet" href="../styles/general/variables.css">
+   <link rel="stylesheet" href="../styles/general/generalStyles.css">
+   <link rel="stylesheet" href="../styles/general/header.css">
+   <link rel="stylesheet" href="../styles/contactStyles/section/contact.css">
+   <link rel="stylesheet" href="../styles/general/footer.css">
+
+</head>
+
+<body>
+
+   <header id="header">
+      <div class="wrapper">
+
+         <div class="header__forma">
+            <img class="header__forma-img" src="../assets/FormaNTop.svg" alt="">
+         </div>
+
+         <div class="header__container">
+
+            <div class="header__links">
+
+               <a href="../../index.html">
+                  <img src="../assets/Casa.svg" alt="">
+               </a>
+
+               <a href="#">
+                  <img src="../assets/Mensagens.svg" alt="">
+               </a>
+            </div>
+
+            <div class="header__perfil">
+               <img src="../assets/Usuário.png" alt="" class="">
+            </div>
+
+         </div>
+
+      </div>
+   </header>
+
+   <main>
+
+      <section id="contact">
+
+         <div class="wrapper">
+
+            <div class="contact__text">
+
+               <p class="contact__paragraph">
+                  Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:
+               </p>
+
+            </div>
+
+
+
+            <form action="" autocomplete="on" class="contact__form" id="form__contact-id">
+
+               <div class="contact__form-container">
+
+                  <label for="input__nome" class="contact__form-label">
+                     Nome
+                  </label>
+                  <input type="text" id="input__nome" required class="contact__form-input"
+                     placeholder="Insira seu nome completo" spellcheck="false" form="form__contact-id">
+
+               </div>
+
+               <div class="contact__form-container">
+
+                  <label for="input__telefone" class="contact__form-label">
+                     Telefone
+                  </label>
+                  <input type="tel" name="" id="input__telefone" required class="contact__form-input"
+                     placeholder="Insira seu telefone e/ou whatsapp" spellcheck="false" form="form__contact-id">
+
+               </div>
+
+               <div class="contact__form-container">
+
+                  <label for="input__nome-animal" class="contact__form-label">
+                     Nome do Animal
+                  </label>
+                  <input type="text" id="input__nome-animal" required class="contact__form-input"
+                     placeholder="Por qual animal você se interessou?" spellcheck="false" form="form__contact-id">
+
+               </div>
+
+               <div class="contact__form-container">
+
+                  <label for="input__mensagem" class="contact__form-label">
+                     Mensagem
+                  </label>
+                  <textarea class="contact__form-input" id="input__mensagem" cols="30" rows="5" required
+                     spellcheck="true" placeholder="Escreva uma mensagem" maxlength="500" minlength="50" wrap="soft"
+                     form="form__contact-id"></textarea>
+
+               </div>
+
+               <button type="submit" class="button contact__form-button">
+                  Enviar
+               </button>
+
+            </form>
+
+         </div>
+
+      </section>
+
+   </main>
+
+   <footer id="footer">
+
+      <div class="wrapper">
+
+         <p>2022 - Desenvolvido por <a href="https://github.com/Gutinnho/AdoPet">Gustavo Lunardi</a></p>
+
+      </div>
+
+   </footer>
+
+</body>
+
+</html>

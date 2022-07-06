@@ -1,0 +1,85 @@
+.contact__text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   padding: 2.4rem 6.7rem;
+}
+
+.contact__paragraph {
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 2rem;
+
+   color: var(--azul);
+
+   text-align: center;
+}
+
+.contact__form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   gap: 1.6rem;
+   padding: 3.2rem 1.6rem;
+   margin: 1.6rem 2.4rem;
+
+   background-color: var(--cinza-claro-fundos);
+   border-radius: 10px;
+}
+
+.contact__form-container {
+   display: flex;
+   flex-direction: column;
+
+   gap: 0.8rem;
+
+   width: 100%;
+}
+
+.contact__form-label {
+   font-weight: 600;
+   font-size: 1.6rem;
+   line-height: 2.4rem;
+
+   color: var(--azul);
+}
+
+.contact__form-input {
+   background: #FFFFFF;
+
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 8px;
+   border: none;
+
+   padding: 1.6rem 1.2rem;
+
+   font-weight: 400;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
+
+   color: var(--cinza-claro);
+   font-family: 'Poppins', sans-serif;
+}
+
+.contact__form-input::placeholder {
+   color: var(--cinza-claro);
+}
+
+#input__mensagem {
+   resize: vertical;
+   min-height: 15rem;
+}
+
+.contact__form-button {
+   font-weight: 600;
+   font-size: 1.6rem;
+   line-height: 2.4rem;
+
+   width: 14.8rem;
+   height: 4rem;
+
+   margin-top: 1.6rem;
+}
