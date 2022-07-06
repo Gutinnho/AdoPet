@@ -1,0 +1,87 @@
+.gallery__text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.gallery__paragraph {
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 2rem;
+
+   color: var(--azul);
+   text-align: center;
+
+   padding: 3rem 6.7rem;
+}
+
+.gallery__cards {
+   display: flex;
+   flex-direction: column;
+   gap: 1.6rem;
+
+   position: relative;
+   z-index: -2;
+
+}
+
+.gallery__cards-card {
+   display: flex;
+   justify-content: space-evenly;
+
+   padding: 2.4rem;
+   background-color: var(--cinza-claro-fundos);
+}
+
+.gallery__cards-card img {
+   width: 14.8rem;
+   height: 14.8rem;
+}
+
+.gallery__card-information {
+   display: flex;
+   flex-direction: column;
+
+   gap: 3rem;
+}
+
+.group-a {
+   font-weight: 400;
+   font-size: 1.4rem;
+   line-height: 2rem;
+
+   color: var(--cinza);
+}
+
+.gallery__information-name {
+   font-weight: 600;
+   font-size: 1.6rem;
+   line-height: 2rem;
+
+   color: var(--azul);
+
+   margin-bottom: 0.8rem;
+}
+
+.gallery__information-address {
+   font-weight: 400;
+   font-size: 1.2rem;
+   line-height: 1.6rem;
+
+   color: var(--cinza);
+}
+
+.gallery__information-link {
+   display: flex;
+   gap: 0.8rem;
+
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1.6rem;
+}
+
+.gallery__information-link img {
+   width: 1.8rem;
+   height: 1.8rem;
+}
