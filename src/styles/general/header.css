@@ -7,7 +7,9 @@ header .header__forma {
 header .header__container {
    display: grid;
    grid-template-columns: 50% 50%;
+   grid-template-rows: 4rem;
    grid-template-areas: 'A B';
+
 
    padding-block: 4rem;
 }
