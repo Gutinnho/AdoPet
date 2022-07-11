@@ -4,7 +4,7 @@
    align-items: center;
 }
 
-.home__description {
+#home .home__description {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -15,7 +15,7 @@
    padding-inline: 5rem;
 }
 
-.home__title {
+#home .home__title {
    font-weight: 500;
    font-size: 2.6rem;
    line-height: 4.8rem;
@@ -25,7 +25,7 @@
    text-align: center;
 }
 
-.home__introduction {
+#home .home__introduction {
    font-weight: 400;
    font-size: 1.6rem;
    line-height: 2.4rem;
@@ -35,7 +35,7 @@
    text-align: center;
 }
 
-.home__buttons {
+#home .home__buttons {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -45,19 +45,19 @@
    margin-bottom: 4rem;
 }
 
-.home__buttons-button {
+#home .home__buttons-button {
    width: 18rem;
    height: 4rem;
 }
 
-.home__buttons a {
+#home .home__buttons a {
    text-decoration: none;
    font-weight: 600;
    font-size: 1.6rem;
    line-height: 2.4rem;
 }
 
-.home__image {
+#home .home__image {
    position: relative;
    bottom: -2rem;
    z-index: -1;

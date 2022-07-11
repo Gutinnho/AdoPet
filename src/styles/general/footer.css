@@ -1,4 +1,4 @@
-footer {
+#footer {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -7,7 +7,7 @@ footer {
    height: var(--footer-height);
 }
 
-footer p {
+#footer p {
    font-weight: 400;
    font-size: 1.6rem;
    line-height: 2.4rem;
@@ -16,7 +16,7 @@ footer p {
    color: var(--footer-text-color);
 }
 
-footer a {
+#footer a {
    text-decoration: none;
    color: white;
 }

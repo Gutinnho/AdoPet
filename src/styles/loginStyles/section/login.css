@@ -1,4 +1,4 @@
-.login__text {
+#login .login__text {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -6,7 +6,7 @@
    padding: 2.4rem;
 }
 
-.login__paragraph {
+#login .login__paragraph {
    font-weight: 400;
    font-size: 1.6rem;
    line-height: 2.1rem;
@@ -14,7 +14,7 @@
    color: var(--azul);
 }
 
-.login__form {
+#login .login__form {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -22,7 +22,7 @@
    margin: 3.4rem;
 }
 
-.login__form-container {
+#login .login__form-container {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -34,7 +34,7 @@
    margin-bottom: 2rem;
 }
 
-.login__form-label {
+#login .login__form-label {
    font-weight: 400;
    font-size: 1.6rem;
    line-height: 2.4rem;
@@ -42,7 +42,7 @@
    color: var(--cinza);
 }
 
-.login__form-input {
+#login .login__form-input {
    background: var(--cinza-claro-fundos);
    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
    border-radius: 6px;
@@ -61,11 +61,11 @@
    color: var(--cinza-claro);
 }
 
-.login__form-input::placeholder {
+#login .login__form-input::placeholder {
    color: var(--cinza-claro);
 }
 
-.login__form-link {
+#login .login__form-link {
    font-weight: 400;
    font-size: 1.2rem;
    line-height: 2.4rem;
@@ -73,7 +73,7 @@
    color: var(--coral);
 }
 
-.login__form-button {
+#login .login__form-button {
    margin-bottom: 24.7rem;
 
    width: 14.8rem;

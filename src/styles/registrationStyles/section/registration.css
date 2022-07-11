@@ -1,4 +1,4 @@
-.registration__text {
+#registration .registration__text {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -6,7 +6,7 @@
    padding: 2.4rem;
 }
 
-.registration__paragraph {
+#registration .registration__paragraph {
    font-weight: 400;
    font-size: 1.6rem;
    line-height: 2.1rem;
@@ -16,7 +16,7 @@
    text-align: center;
 }
 
-.registration__form {
+#registration .registration__form {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -25,7 +25,7 @@
    padding-inline: 3.4rem;
 }
 
-.registration__form-container {
+#registration .registration__form-container {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -37,7 +37,7 @@
    margin-bottom: 2rem;
 }
 
-.registration__form-label {
+#registration .registration__form-label {
    font-weight: 400;
    font-size: 1.6rem;
    line-height: 2.4rem;
@@ -45,7 +45,7 @@
    color: var(--cinza);
 }
 
-.registration__form-input {
+#registration .registration__form-input {
    background: var(--cinza-claro-fundos);
    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
    border-radius: 6px;
@@ -64,11 +64,11 @@
    color: var(--cinza-claro);
 }
 
-.registration__form-input::placeholder {
+#registration .registration__form-input::placeholder {
    color: var(--cinza-claro);
 }
 
-.registration__form-button {
+#registration .registration__form-button {
    margin-bottom: 10.5rem;
 
    width: 14.8rem;
