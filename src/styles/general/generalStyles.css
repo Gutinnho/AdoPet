@@ -8,6 +8,10 @@ body {
 
 }
 
+main {
+   margin-top: -12rem;
+}
+
 .button {
    display: flex;
    justify-content: center;
@@ -30,4 +34,18 @@ body {
 
 * img {
    width: min(90%, 100%);
+}
+
+@media (min-width: 768px) {
+   .wrapper {
+      width: min(76.8rem, 100%);
+      margin-inline: auto;
+   }
+}
+
+@media (min-width: 1024px) {
+   .wrapper {
+      width: min(144rem, 100%);
+      margin-inline: auto;
+   }
 }

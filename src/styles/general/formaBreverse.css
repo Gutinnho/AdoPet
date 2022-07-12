@@ -1,0 +1,13 @@
+main {
+   background-image: url(../../assets/FormaBReverse.svg);
+   background-repeat: no-repeat;
+   background-position: right 35%;
+   background-clip: border-box;
+   background-size: 8.4rem 41.5rem;
+}
+
+@media (min-width: 768px) {
+   main {
+      background-size: 13.4rem 66.4rem;
+   }
+}

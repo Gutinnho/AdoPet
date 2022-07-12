@@ -21,7 +21,7 @@
    <link rel="stylesheet" href="./src/styles/general/generalStyles.css">
    <link rel="stylesheet" href="./src/styles/general/header.css">
    <link rel="stylesheet" href="./src/styles/general/logo.css">
-   <link rel="stylesheet" href="./src/styles/general/forma.css">
+   <link rel="stylesheet" href="./src/styles/general/formaBreverse.css">
    <link rel="stylesheet" href="./src/styles/general/footer.css">
 
    <!-- Index Styles -->
@@ -42,19 +42,18 @@
 
          <div class="header__container">
 
-            <div class="header__links">
+            <div class="header__content">
 
-               <a href="./index.html">
-                  <img src="./src/assets/Casa.svg" alt="">
+               <img class="header__content-logo" src="./src/assets/Logo.svg" alt="">
+
+               <a class="header__link" href="./index.html">
+                  <img class="header__link-img" src="./src/assets/Casa.svg" alt="">
                </a>
 
-               <a href="./src/pages/contact.html">
-                  <img src="./src/assets/Mensagens.svg" alt="">
+               <a class="header__link" href="./src/pages/contact.html">
+                  <img class="header__link-img" src="./src/assets/Mensagens.svg" alt="">
                </a>
-            </div>
 
-            <div class="header__perfil">
-               <img src="./src/assets/Usuário.png" alt="" class="hidden">
             </div>
 
          </div>
@@ -97,10 +96,6 @@
 
       </div>
 
-      <div class="formaBReverse">
-         <img class="formaBReverse-img" src="./src/assets/FormaBReverse.svg" alt="">
-      </div>
-
       <section id="home">
 
          <div class="wrapper">
@@ -111,9 +106,10 @@
                   Boas-vindas!
                </h2>
 
-               <p class="home__introduction">
-                  Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!
-               </p>
+               <div class="home__introduction">
+                  <p class="p-1">Adotar pode mudar uma vida.</p>
+                  <p class="p-2">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+               </div>
 
             </div>
 
@@ -125,7 +121,9 @@
             </div>
 
             <div class="home__image">
-               <img src="./src/assets/CãoEGato.png" alt="">
+
+               <img class="home__image-img" src="./src/assets/CãoEGato.png" alt="">
+
             </div>
 
          </div>

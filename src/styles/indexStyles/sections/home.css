@@ -1,7 +1,6 @@
 #home {
    display: flex;
    flex-direction: column;
-   align-items: center;
 }
 
 #home .home__description {
@@ -35,6 +34,10 @@
    text-align: center;
 }
 
+#home .p-1 {
+   display: none;
+}
+
 #home .home__buttons {
    display: flex;
    flex-direction: column;
@@ -42,7 +45,7 @@
    justify-content: center;
 
    gap: 1.6rem;
-   margin-bottom: 4rem;
+   margin-bottom: 2.4rem;
 }
 
 #home .home__buttons-button {
@@ -64,4 +67,28 @@
 
    display: flex;
    justify-content: center;
+}
+
+#home .home__image-img {
+   height: 42.2rem;
+   width: 33.28rem;
+}
+
+@media (min-width: 768px) {
+   #home .home__buttons-button {
+      height: 4.8rem;
+      width: 34.4rem;
+   }
+
+   #home .home__description {
+      padding-inline: 21.4rem;
+   }
+
+   #home .p-1 {
+      display: block;
+   }
+
+   #home .home__buttons {
+      margin-bottom: 4rem;
+   }
 }
