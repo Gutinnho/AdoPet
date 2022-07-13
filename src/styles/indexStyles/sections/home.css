@@ -4,34 +4,13 @@
 }
 
 #home .home__description {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-
-   gap: 1.6rem;
-   margin-bottom: 2.4rem;
    padding-inline: 5rem;
 }
 
-#home .home__title {
-   font-weight: 500;
-   font-size: 2.6rem;
-   line-height: 4.8rem;
-
-   color: #ffffff;
-
-   text-align: center;
-}
-
-#home .home__introduction {
-   font-weight: 400;
-   font-size: 1.6rem;
+#home .home__paragraph {
    line-height: 2.4rem;
 
    color: #ffffff;
-
-   text-align: center;
 }
 
 #home .p-1 {
@@ -51,13 +30,6 @@
 #home .home__buttons-button {
    width: 18rem;
    height: 4rem;
-}
-
-#home .home__buttons a {
-   text-decoration: none;
-   font-weight: 600;
-   font-size: 1.6rem;
-   line-height: 2.4rem;
 }
 
 #home .home__image {

@@ -18,11 +18,18 @@
    <link rel="stylesheet" href="../styles/general/reset.css">
    <link rel="stylesheet" href="../styles/general/variables.css">
    <link rel="stylesheet" href="../styles/general/generalStyles.css">
-   <link rel="stylesheet" href="../styles/general/header.css">
-   <link rel="stylesheet" href="../styles/general/patas.css">
-   <link rel="stylesheet" href="../styles/general/logo.css">
-   <link rel="stylesheet" href="../styles/general/formaBNormal.css">
-   <link rel="stylesheet" href="../styles/general/footer.css">
+
+   <!-- Components -->
+   <link rel="stylesheet" href="../styles/general/components/header.css">
+   <link rel="stylesheet" href="../styles/general/components/patas.css">
+   <link rel="stylesheet" href="../styles/general/components/logo.css">
+   <link rel="stylesheet" href="../styles/general/components/formaBNormal.css">
+   <link rel="stylesheet" href="../styles/general/components/text.css">
+   <link rel="stylesheet" href="../styles/general/components/form.css">
+   <link rel="stylesheet" href="../styles/general/components/label.css">
+   <link rel="stylesheet" href="../styles/general/components/input.css">
+   <link rel="stylesheet" href="../styles/general/components/button.css">
+   <link rel="stylesheet" href="../styles/general/components/footer.css">
 
    <!-- Registration Styles -->
    <link rel="stylesheet" href="../styles/registrationStyles/RegistrationLogo.css">
@@ -100,52 +107,53 @@
 
          <div class="wrapper">
 
-            <div class="registration__text">
+            <div class="registration__description description">
 
-               <p class="registration__paragraph">Ainda não tem cadastro?<br>
+               <p class="registration__paragraph paragraph">Ainda não tem cadastro?<br>
                   Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
                </p>
 
             </div>
 
-            <form action="" autocomplete="on" class="registration__form">
-               <div class="registration__form-container">
+            <form action="" autocomplete="on" class="registration__form form-1">
 
-                  <label for="input__email" class="registration__form-label">
+               <div class="registration__form-container form__container-1">
+
+                  <label for="input__email" class="registration__form-label label-cinza">
                      Email
                   </label>
                   <input type="email" name="" id="input__email" required placeholder="Escolha seu melhor email"
-                     class="registration__form-input">
+                     class="registration__form-input input-1">
 
                </div>
 
-               <div class="registration__form-container">
+               <div class="registration__form-container form__container-1">
 
-                  <label for="input__nome" class="registration__form-label">
+                  <label for="input__nome" class="registration__form-label label-cinza">
                      Nome
                   </label>
                   <input type="text" name="nome" id="input__nome" required placeholder="Digite seu nome completo"
-                     class="registration__form-input">
+                     class="registration__form-input input-1">
 
                </div>
 
-               <div class="registration__form-container">
+               <div class="registration__form-container form__container-1">
 
-                  <label for="input__senha" class="registration__form-label">
+                  <label for="input__senha" class="registration__form-label label-cinza">
                      Senha
                   </label>
                   <input type="password" name="" id="input__senha" maxlength="16" required placeholder="Crie uma senha"
-                     class="registration__form-input">
+                     class="registration__form-input input-1">
 
                </div>
 
-               <div class="registration__form-container">
+               <div class="registration__form-container form__container-1">
 
-                  <label for="input__confirme-senha" class="registration__form-label">
+                  <label for="input__confirme-senha" class="registration__form-label label-cinza">
                      Confirme sua Senha
                   </label>
                   <input type="password" name="" id="input__confirme-senha" maxlength="16" required
-                     placeholder="Repita a senha criada acima" class="registration__form-input">
+                     placeholder="Repita a senha criada acima" class="registration__form-input input-1">
 
                </div>
 

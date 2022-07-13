@@ -18,8 +18,15 @@
    <link rel="stylesheet" href="../styles/general/reset.css">
    <link rel="stylesheet" href="../styles/general/variables.css">
    <link rel="stylesheet" href="../styles/general/generalStyles.css">
-   <link rel="stylesheet" href="../styles/general/header.css">
-   <link rel="stylesheet" href="../styles/general/footer.css">
+
+   <!-- Components -->
+   <link rel="stylesheet" href="../styles/general/components/header.css">
+   <link rel="stylesheet" href="../styles/general/components/text.css">
+   <link rel="stylesheet" href="../styles/general/components/form.css">
+   <link rel="stylesheet" href="../styles/general/components/label.css">
+   <link rel="stylesheet" href="../styles/general/components/input.css">
+   <link rel="stylesheet" href="../styles/general/components/button.css">
+   <link rel="stylesheet" href="../styles/general/components/footer.css">
 
    <!-- Profile Styles -->
    <link rel="stylesheet" href="../styles/profileStyles/sections/profile.css">
@@ -70,15 +77,15 @@
 
          <div class="wrapper">
 
-            <div class="profile__text">
+            <div class="profile__description description">
 
-               <p class="profile__paragraph">
+               <p class="profile__paragraph paragraph">
                   Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.
                </p>
 
             </div>
 
-            <form action="" class="profile__form">
+            <form action="" class="profile__form form-2">
 
                <p class="profile__form-title">
                   Perfil
@@ -86,7 +93,7 @@
 
                <div class="profile__form-photo">
 
-                  <p class="profile__form-text">
+                  <p class="profile__form-text label-azul">
                      Foto
                   </p>
 
@@ -100,44 +107,44 @@
 
                </div>
 
-               <div class="profile__form-container">
+               <div class="profile__form-container form__container-2">
 
-                  <label class="profile__form-label" for="input__nome">
+                  <label class="profile__form-label label-azul" for="input__nome">
                      Nome
                   </label>
 
-                  <input class="profile__form-input" type="text" id="input__nome" placeholder="Joana Magalhões">
+                  <input class="profile__form-input input-2" type="text" id="input__nome" value="Joana Magalhões">
 
                </div>
 
-               <div class="profile__form-container">
+               <div class="profile__form-container form__container-2">
 
-                  <label class="profile__form-label" for="input__telefone">
+                  <label class="profile__form-label label-azul" for="input__telefone">
                      Telefone
                   </label>
 
-                  <input class="profile__form-input" type="tel" id="input__telefone" placeholder="55 11 xxxxx-xxxx">
+                  <input class="profile__form-input input-2" type="tel" id="input__telefone" value="55 11 xxxxx-xxxx">
 
                </div>
 
-               <div class="profile__form-container">
+               <div class="profile__form-container form__container-2">
 
-                  <label class="profile__form-label" for="input__cidade">
+                  <label class="profile__form-label label-azul" for="input__cidade">
                      Cidade
                   </label>
 
-                  <input class="profile__form-input" type="text" id="input__cidade" placeholder="São Paulo">
+                  <input class="profile__form-input input-2" type="text" id="input__cidade" value="São Paulo">
 
                </div>
 
-               <div class="profile__form-container">
+               <div class="profile__form-container form__container-2">
 
-                  <label class="profile__form-label" for="input__sobre">
+                  <label class="profile__form-label label-azul" for="input__sobre">
                      Sobre
                   </label>
 
-                  <textarea class="profile__form-input" id="input__sobre" cols="30" rows="5" required spellcheck="true"
-                     placeholder="" maxlength="500" minlength="50" wrap="soft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum!
+                  <textarea class="profile__form-input input-2 form__mensage" id="input__sobre" cols="30" rows="5"
+                     required spellcheck="true" placeholder="" maxlength="500" minlength="50" wrap="soft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum!
                   </textarea>
 
                </div>

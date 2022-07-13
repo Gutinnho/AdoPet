@@ -19,8 +19,15 @@
    <link rel="stylesheet" href="../styles/general/reset.css">
    <link rel="stylesheet" href="../styles/general/variables.css">
    <link rel="stylesheet" href="../styles/general/generalStyles.css">
-   <link rel="stylesheet" href="../styles/general/header.css">
-   <link rel="stylesheet" href="../styles/general/footer.css">
+
+   <!-- Components -->
+   <link rel="stylesheet" href="../styles/general/components/header.css">
+   <link rel="stylesheet" href="../styles/general/components/text.css">
+   <link rel="stylesheet" href="../styles/general/components/form.css">
+   <link rel="stylesheet" href="../styles/general/components/label.css">
+   <link rel="stylesheet" href="../styles/general/components/input.css">
+   <link rel="stylesheet" href="../styles/general/components/button.css">
+   <link rel="stylesheet" href="../styles/general/components/footer.css">
 
    <!-- Contact Styles -->
    <link rel="stylesheet" href="../styles/contactStyles/section/contact.css">
@@ -71,54 +78,54 @@
 
          <div class="wrapper">
 
-            <div class="contact__text">
+            <div class="contact__description description">
 
-               <p class="contact__paragraph">
+               <p class="contact__paragraph paragraph">
                   Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:
                </p>
 
             </div>
 
-            <form action="" autocomplete="on" class="contact__form" id="form__contact-id">
+            <form action="" autocomplete="on" class="contact__form form-2" id="form__contact-id">
 
-               <div class="contact__form-container">
+               <div class="contact__form-container form__container-2">
 
-                  <label for="input__nome" class="contact__form-label">
+                  <label for="input__nome" class="contact__form-label label-azul">
                      Nome
                   </label>
-                  <input type="text" id="input__nome" required class="contact__form-input"
+                  <input type="text" id="input__nome" required class="contact__form-input input-2"
                      placeholder="Insira seu nome completo" spellcheck="false" form="form__contact-id">
 
                </div>
 
-               <div class="contact__form-container">
+               <div class="contact__form-container form__container-2">
 
-                  <label for="input__telefone" class="contact__form-label">
+                  <label for="input__telefone" class="contact__form-label label-azul">
                      Telefone
                   </label>
-                  <input type="tel" name="" id="input__telefone" required class="contact__form-input"
+                  <input type="tel" name="" id="input__telefone" required class="contact__form-input input-2"
                      placeholder="Insira seu telefone e/ou whatsapp" spellcheck="false" form="form__contact-id">
 
                </div>
 
-               <div class="contact__form-container">
+               <div class="contact__form-container form__container-2">
 
-                  <label for="input__nome-animal" class="contact__form-label">
+                  <label for="input__nome-animal" class="contact__form-label label-azul">
                      Nome do Animal
                   </label>
-                  <input type="text" id="input__nome-animal" required class="contact__form-input"
+                  <input type="text" id="input__nome-animal" required class="contact__form-input input-2"
                      placeholder="Por qual animal você se interessou?" spellcheck="false" form="form__contact-id">
 
                </div>
 
-               <div class="contact__form-container">
+               <div class="contact__form-container form__container-2">
 
-                  <label for="input__mensagem" class="contact__form-label">
+                  <label for="input__mensagem" class="contact__form-label label-azul">
                      Mensagem
                   </label>
-                  <textarea class="contact__form-input" id="input__mensagem" cols="30" rows="5" required
-                     spellcheck="true" placeholder="Escreva uma mensagem" maxlength="500" minlength="50" wrap="soft"
-                     form="form__contact-id"></textarea>
+                  <textarea class="contact__form-input input-2 form__mensage" id="input__mensagem" cols="30" rows="5"
+                     required spellcheck="true" placeholder="Escreva uma mensagem" maxlength="500" minlength="50"
+                     wrap="soft" form="form__contact-id"></textarea>
 
                </div>
 

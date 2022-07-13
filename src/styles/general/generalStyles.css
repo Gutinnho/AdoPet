@@ -3,29 +3,12 @@ body {
 }
 
 .wrapper {
-   width: min(36rem, 100%);
+   width: min(100%);
    margin-inline: auto;
-
 }
 
 main {
    margin-top: -12rem;
-}
-
-.button {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-   background: var(--coral);
-   border-radius: 6px;
-   border: none;
-
-   color: #ffffff;
-}
-
-.button:hover {
-   background-color: var(--button-hover);
 }
 
 .hidden {

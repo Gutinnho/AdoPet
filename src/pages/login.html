@@ -19,11 +19,18 @@
    <link rel="stylesheet" href="../styles/general/reset.css">
    <link rel="stylesheet" href="../styles/general/variables.css">
    <link rel="stylesheet" href="../styles/general/generalStyles.css">
-   <link rel="stylesheet" href="../styles/general/logo.css">
-   <link rel="stylesheet" href="../styles/general/header.css">
-   <link rel="stylesheet" href="../styles/general/patas.css">
-   <link rel="stylesheet" href="../styles/general/formaBNormal.css">
-   <link rel="stylesheet" href="../styles/general/footer.css">
+
+   <!-- Components -->
+   <link rel="stylesheet" href="../styles/general/components/header.css">
+   <link rel="stylesheet" href="../styles/general/components/patas.css">
+   <link rel="stylesheet" href="../styles/general/components/logo.css">
+   <link rel="stylesheet" href="../styles/general/components/formaBNormal.css">
+   <link rel="stylesheet" href="../styles/general/components/text.css">
+   <link rel="stylesheet" href="../styles/general/components/form.css">
+   <link rel="stylesheet" href="../styles/general/components/label.css">
+   <link rel="stylesheet" href="../styles/general/components/input.css">
+   <link rel="stylesheet" href="../styles/general/components/button.css">
+   <link rel="stylesheet" href="../styles/general/components/footer.css">
 
    <!-- Login Styles -->
    <link rel="stylesheet" href="../styles/loginStyles/LoginLogo.css">
@@ -101,36 +108,36 @@
 
          <div class="wrapper">
 
-            <div class="login__text">
+            <div class="login__description description">
 
-               <p class="login__paragraph">
+               <p class="login__paragraph paragraph">
                   Já tem conta? Faça seu login:
                </p>
 
             </div>
 
-            <form action="" autocomplete="on" class="login__form">
+            <form action="" autocomplete="on" class="login__form form-1">
 
-               <div class="login__form-container">
+               <div class="login__form-container form__container-1">
 
-                  <label for="input__email" class="login__form-label">
+                  <label for="input__email" class="login__form-label label-cinza">
                      Email
                   </label>
                   <input type="email" name="" id="input__email" required placeholder="Insira seu email"
-                     class="login__form-input">
+                     class="login__form-input input-1">
 
                </div>
 
-               <div class="login__form-container">
+               <div class="login__form-container form__container-1">
 
-                  <label for="input__senha" class="login__form-label">
+                  <label for="input__senha" class="login__form-label label-cinza">
                      Senha
                   </label>
 
                   <input type="password" name="" id="input__senha" maxlength="16" required
-                     placeholder="Insira sua senha" class="login__form-input">
+                     placeholder="Insira sua senha" class="login__form-input input-1">
 
-                  <a href="#" class="login__form-link">Esqueci minha senha</a>
+                  <a href="#" class="login__form-link form-link">Esqueci minha senha</a>
 
                </div>
 

@@ -1,17 +1,4 @@
-#gallery .gallery__text {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-#gallery .gallery__paragraph {
-   font-weight: 400;
-   font-size: 1.6rem;
-   line-height: 2rem;
-
-   color: var(--azul);
-   text-align: center;
-
+#gallery .gallery__description {
    padding: 3rem 6.7rem;
 }
 

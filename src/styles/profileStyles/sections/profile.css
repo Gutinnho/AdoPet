@@ -1,32 +1,9 @@
-#profile .profile__text {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-#profile .profile__paragraph {
-   font-weight: 400;
-   font-size: 1.6rem;
-   line-height: 2rem;
-
-   color: var(--azul);
-
+#profile .profile__description {
    padding: 2.4rem 5.6rem;
 }
 
 #profile .profile__form {
-   display: flex;
    align-items: flex-start;
-
-   flex-direction: column;
-
-   gap: 1.6rem;
-   margin: 1.6rem 2.4rem;
-   padding: 3.2rem 1.6rem;
-
-   border-radius: 10px;
-
-   background-color: var(--cinza-claro-fundos);
 }
 
 #profile .profile__form-title {
@@ -74,59 +51,8 @@
    color: var(--coral);
 }
 
-#profile .profile__form-container {
-   display: flex;
-   flex-direction: column;
-
-   gap: 0.8rem;
-
-   width: 100%;
-}
-
-#profile .profile__form-label,
-#profile .profile__form-text {
-   font-weight: 600;
-   font-size: 1.6rem;
-   line-height: 2.4rem;
-
-   color: var(--azul);
-}
-
-#profile .profile__form-input {
-   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-   border-radius: 6px;
-   border: none;
-
-   font-weight: 400;
-   font-size: 1.4rem;
-   line-height: 2.4rem;
-
-   color: var(--cinza);
-
-   padding: 1.2rem 1.6rem;
-}
-
-#profile .profile__form-input::placeholder {
-   color: var(--cinza-claro);
-}
-
-#input__sobre {
-   resize: vertical;
-   min-height: 17.6rem;
-
-   font-family: 'Poppins', sans-serif;
-}
-
 #profile .profile__form-button {
    align-self: center;
 
-   font-weight: 600;
-   font-size: 1.6rem;
-   line-height: 2.4rem;
-
-   padding-block: 0.8rem;
    margin-top: 1.6rem;
-
-   width: 14.8rem;
-   height: 4rem;
 }
