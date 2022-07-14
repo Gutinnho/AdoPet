@@ -2,6 +2,18 @@
    padding: 3rem 6.7rem;
 }
 
+.model-1 {
+   display: initial;
+}
+
+.model-2 {
+   display: none;
+}
+
+#gallery .gallery__paragraph {
+   text-align: center;
+}
+
 #gallery .gallery__cards {
    display: flex;
    flex-direction: column;
@@ -67,4 +79,27 @@
 #gallery .gallery__information-link img {
    width: 1.8rem;
    height: 1.8rem;
+}
+
+@media (min-width : 768px) {
+   #gallery .gallery__description {
+      padding: 3.2rem 19.7rem;
+      margin-top: 5rem;
+   }
+
+   .model-1 {
+      display: none;
+   }
+
+   .model-2 {
+      display: block;
+   }
+
+   #gallery .gallery__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      margin-inline: 3.2rem;
+      margin-bottom: 3.2rem;
+   }
 }

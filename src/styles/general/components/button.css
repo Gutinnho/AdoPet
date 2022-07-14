@@ -21,3 +21,10 @@
 .button:hover {
    background-color: var(--button-hover);
 }
+
+@media(min-width: 768px) {
+   .button {
+      width: 16.4rem;
+      margin-top: 1.6rem;
+   }
+}

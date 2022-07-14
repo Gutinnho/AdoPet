@@ -58,3 +58,20 @@
 
    font-family: 'Poppins', sans-serif;
 }
+
+@media(min-width: 768px) {
+   .form-1 {
+      margin-inline: 21.2rem;
+   }
+
+   .form__container-1 {
+      gap: 0.8rem;
+
+      margin-bottom: 2.4rem;
+   }
+
+   .form-2 {
+      margin-inline: 12.2rem;
+      margin-bottom: 9.1rem;
+   }
+}

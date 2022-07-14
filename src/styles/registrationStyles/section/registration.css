@@ -1,3 +1,9 @@
 #registration .registration__form-button {
    margin-bottom: 10.5rem;
 }
+
+@media (min-width : 768px) {
+   #registration .registration__form-button {
+      margin-bottom: 18.5rem;
+   }
+}

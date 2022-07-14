@@ -5,3 +5,14 @@
 #contact .contact__form-button {
    margin-top: 1.6rem;
 }
+
+@media (min-width : 768px) {
+   #contact .contact__description {
+      padding: 4rem 12.2rem;
+      margin-top: 6rem;
+   }
+
+   #contact .form__mensage {
+      min-height: 17.2rem;
+   }
+}

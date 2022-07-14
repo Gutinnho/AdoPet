@@ -53,6 +53,15 @@
 
 #profile .profile__form-button {
    align-self: center;
+}
 
-   margin-top: 1.6rem;
+@media (min-width : 768px) {
+   #profile .profile__description {
+      padding: 2.6rem 12.2rem;
+      margin-top: 8rem;
+   }
+
+   #profile .form__mensage {
+      min-height: 10.4rem;
+   }
 }

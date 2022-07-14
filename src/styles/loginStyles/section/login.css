@@ -1,3 +1,15 @@
 #login .login__form-button {
    margin-bottom: 24.7rem;
+   margin-top: 0.4rem;
+}
+
+@media(min-width:768px) {
+   #login .login__form-button {
+      margin-bottom: 43.4rem;
+   }
+
+   #login .login__paragraph {
+      line-height: 2.1rem;
+   }
+
 }

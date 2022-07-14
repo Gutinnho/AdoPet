@@ -1,6 +1,6 @@
-@media (max-width: 760px) {
+@media (max-width: 767px) {
    main {
-      background-image: url(../../assets/FormaBNormal.svg);
+      background-image: url(../../../assets/FormaBNormal.svg);
       background-repeat: no-repeat;
       background-position: left 76%;
       background-clip: border-box;
