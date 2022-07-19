@@ -16,3 +16,9 @@
       min-height: 17.2rem;
    }
 }
+
+@media (min-width : 1024px) {
+   #contact .contact__description {
+      padding-inline: 47.4rem;
+   }
+}

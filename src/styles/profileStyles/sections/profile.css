@@ -65,3 +65,9 @@
       min-height: 10.4rem;
    }
 }
+
+@media (min-width : 1024px) {
+   #profile .profile__description {
+      padding-inline: 44.4rem;
+   }
+}

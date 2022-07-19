@@ -103,3 +103,16 @@
       margin-bottom: 3.2rem;
    }
 }
+
+@media (min-width : 1024px) {
+   #gallery .gallery__description {
+      padding-inline: 51.2rem;
+   }
+
+   #gallery .gallery__cards {
+      grid-template-columns: 1fr 1fr 1fr;
+
+      margin-inline: 16rem;
+      margin-bottom: 6rem;
+   }
+}

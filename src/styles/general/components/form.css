@@ -75,3 +75,14 @@
       margin-bottom: 9.1rem;
    }
 }
+
+@media (min-width : 1024px) {
+   .form-1 {
+      margin-inline: 44.4rem;
+   }
+
+   .form-2 {
+      margin-inline: 44.4rem;
+      margin-bottom: 3.2rem;
+   }
+}

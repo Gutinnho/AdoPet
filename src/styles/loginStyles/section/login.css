@@ -11,5 +11,10 @@
    #login .login__paragraph {
       line-height: 2.1rem;
    }
+}
 
+@media (min-width : 1024px) {
+   #login .login__description {
+      padding-block: 6.4rem 7.2rem;
+   }
 }
