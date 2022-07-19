@@ -30,11 +30,18 @@
 
 @media(min-width : 768px) {
    .description {
-      padding: 4rem 12.1rem;
+      padding: 0;
+      padding-inline: 12.1rem;
    }
 
    .paragraph {
       font-size: 1.8rem;
       line-height: 2.6rem;
+   }
+}
+
+@media (min-width : 1024px) {
+   .description {
+      gap: 2.4rem;
    }
 }

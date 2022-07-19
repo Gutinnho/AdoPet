@@ -4,7 +4,7 @@
    justify-content: center;
 
    background-color: var(--verde);
-   height: var(--footer-height);
+   height: 10.4rem;
 }
 
 #footer p {
@@ -19,4 +19,10 @@
 #footer a {
    text-decoration: none;
    color: white;
+}
+
+@media (min-width : 1024px) {
+   #footer {
+      height: 8rem;
+   }
 }

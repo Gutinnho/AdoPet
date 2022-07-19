@@ -14,6 +14,13 @@
 
 @media (min-width: 768px) {
    #logo {
+      margin-block: 0;
       margin-top: 9rem;
+   }
+}
+
+@media (min-width : 1024px) {
+   #logo {
+      margin-top: 0;
    }
 }
